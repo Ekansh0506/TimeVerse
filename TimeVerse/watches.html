@@ -1,0 +1,67 @@
+<!-- 
+<section class="fade-in">
+    <h2>All Watches</h2>
+    <div id="watches-grid" class="product-grid"></div>
+    <div id="pagination"></div>
+</section>
+<script src="watches.js"></script> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Watches - TimeVerse</title>
+    <!-- Watches-specific CSS for consistent dark theme look -->
+    <link rel="stylesheet" href="watches.css">
+</head>
+
+<body>
+    <header id="navbar">
+        <div class="logo">
+            <img src="images/ChatGPT Image Jun 12, 2025, 11_47_57 AM.png" alt="TimeVerse Logo" class="header-logo">
+            TimeVerse
+        </div>
+        <nav>
+            <a href="index.html#hero">Home</a>
+            <a href="index.html#catalog">Catalog</a>
+            <a href="watches.html">Watches</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#contact">Contact</a>
+            <button id="theme-toggle" title="Toggle dark/light mode">🌙</button>
+        </nav>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </header>
+
+    <section class="fade-in">
+        <h2>All Watches</h2>
+        <div id="watches-grid" class="product-grid"></div>
+        <div id="pagination"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 TimeVerse. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Menu toggle for mobile
+        function toggleMenu() {
+            const nav = document.querySelector("header nav");
+            nav.classList.toggle("active");
+        }
+        // Fade-in on scroll
+        function fadeInOnScroll() {
+            document.querySelectorAll('.fade-in').forEach(el => {
+                const pos = el.getBoundingClientRect();
+                if (pos.top < window.innerHeight - 60) {
+                    el.classList.add('visible');
+                }
+            });
+        }
+        window.addEventListener('scroll', fadeInOnScroll);
+        window.addEventListener('DOMContentLoaded', fadeInOnScroll);
+    </script>
+    <script src="watches.js"></script>
+</body>
+
+</html>

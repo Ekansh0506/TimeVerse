@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TimeVerse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="navbar">
+        <div class="logo">
+            <img src="images/ChatGPT Image Jun 12, 2025, 11_47_57 AM.png" alt="TimeVerse Logo" class="header-logo">
+            TimeVerse
+        </div>
+        <nav>
+            <a href="#hero">Home</a>
+            <a href="#catalog">Catalog</a>
+            <a href="watches.html">Watches</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <button id="theme-toggle" title="Toggle dark/light mode">🌙</button>
+        </nav>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Get the <span class="highlight">Luxury Look</span> for Less</h1>
+            <p><b>Order exact replicas of your favorite luxury watches, or request any model you desire.<br>
+                    <!-- <span class="mini">No one can tell the difference.</span> -->
+            </p>
+            <a href="#catalog" class="hero-btn">Browse Collection</a>
+        </div>
+    </section>
+
+    <section id="catalog" class="fade-in">
+        <div class="catalog-header">
+            <h2>Featured Collection</h2>
+        </div>
+        <div class="product-grid" id="featured-grid"></div>
+    </section>
+
+    <!-- <section id="reviews" class="fade-in">
+        <h2>Customer Reviews</h2>
+        <div id="reviews-list" class="reviews-list"></div>
+        <form id="review-form" class="review-form">
+            <h3>Leave a Review</h3>
+            <input type="text" id="reviewer" placeholder="Your Name" required>
+            <input type="email" id="review-email" placeholder="Your Email or Main ID" required>
+            <textarea id="review-text" placeholder="Your review..." required></textarea>
+            <button type="submit">Submit Review</button>
+        </form>
+    </section> -->
+    <section id="reviews" class="fade-in">
+        <h2 style="text-align:center;">Customer Reviews</h2>
+        <div id="reviews-list" class="reviews-list-cards"></div>
+        <form id="review-form" class="review-form">
+            <h3>Leave a Review</h3>
+            <div class="review-form-flex">
+                <input type="text" id="reviewer" placeholder="Your Name" required>
+                <input type="email" id="review-email" placeholder="Your Email" required>
+            </div>
+            <div class="star-select" id="star-select">
+                <!-- Stars will be rendered here by JS -->
+            </div>
+            <textarea id="review-text" placeholder="Your review..." required></textarea>
+            <button type="submit">Submit Review</button>
+        </form>
+    </section>
+
+    <section id="about" class="fade-in">
+        <h2>About Us</h2>
+        <strong>Welcome to TimeVerse – Your Gateway to Iconic Timepieces, Reimagined.</strong>
+        <p>We specialize in crafting indistinguishable replicas of renowned luxury watches. Provide a photo of your
+            dream watch and we’ll deliver an exact copy with custom options!</p>
+        <p> At <strong>TimeVerse</strong>, we make luxury accessible. Our mission is simple — to provide you with
+            <strong>high-quality, visually identical replicas of your favorite luxury watches</strong> at a fraction
+            of the original price.
+        </p>
+        <p>
+            How it works? You <strong>send us a photo or name of the luxury watch you love</strong> — whether it's a
+            Rolex, Rado, Audemars Piguet, or any iconic brand — and we’ll deliver a stunning replica that looks and
+            feels just like the real thing.
+        </p>
+        <ul>
+            <li>🔹 <strong>Top-tier replica craftsmanship</strong> that captures every detail</li>
+            <li>🔹 <strong>Watches that are nearly impossible to distinguish from originals</strong></li>
+            <li>🔹 <strong>Affordable pricing</strong> without compromising design and feel</li>
+            <li>🔹 <strong>Fast & secure delivery</strong> across India</li>
+        </ul>
+        <p>
+            Whether you're a collector, enthusiast, or someone who appreciates fine timepieces —
+            <strong>TimeVerse lets you wear the look of luxury, effortlessly.</strong>
+        </p>
+        <p>
+            Luxury isn’t about price — it’s about presence.<br>Experience it with TimeVerse.
+        </p>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <h2>Contact / Order</h2>
+        <p>Click “Enquire/Order” on any product, or DM us on <a href="https://instagram.com/timeverse_official"
+                target="_blank">Instagram</a>!</p>
+        <p>Contact Details:- +91-7861970037</p>
+        <div class="social-links">
+            <a href="https://instagram.com/timeverse_official" target="_blank" class="ig-link">Instagram</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 TimeVerse. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+[
+    {
+        "id": "CW-001",
+        "title": "Rolex Submariner",
+        "description": "Stainless steel, automatic movement, green dial. Premium copy with sapphire glass.",
+        "image": "images/Rolex Submariner.jpg",
+        "price": "2,199"
+    },
+    {
+        "id": "CW-002",
+        "title": "Omega Seamaster",
+        "description": "Blue ceramic bezel, precision-crafted, indistinguishable from the original.",
+        "image": "images/omega seamaster.jpg",
+        "price": "2,499"
+    },
+    {
+        "id": "CW-003",
+        "title": "Audemars Piguet Royal Oak",
+        "description": "Iconic octagonal bezel, supreme craftsmanship, customizable on request.",
+        "image": "images/Audemars Piguet Royal Oak.jpg",
+        "price": "2,799"
+    },
+    {
+        "id": "CW-004",
+        "title": "Patek Philippe Nautilus",
+        "description": "Blue dial, integrated bracelet, timeless luxury for collectors.",
+        "image": "images/Patek Philippe Nautilus.jpg",
+        "price": "2,199"
+    },
+    {
+        "id": "CW-005",
+        "title": "Fossil Gen 6",
+        "description": "Digital, Rose Gold, Premium with crystal border.",
+        "image": "images/fossil gen 6.avif",
+        "price": "2,599"
+    },
+    {
+        "id": "CW-006",
+        "title": "Rado Diastar Tungsten(Day&Date)",
+        "description": "Stainless Steel, Elegant Design, Premium .  ",
+        "image": "images/Rado.webp",
+        "price": "2,349"
+    },
+    {
+        "id": "CW-007",
+        "title": "Fossil ME-3080",
+        "description": "Metal Body, Luminous Dial, Automatic Movement.",
+        "image": "images/fossil-men-39-s-me3080-modern-machine.jpg",
+        "price": "2,999"
+    },
+    {
+        "id": "CW-008",
+        "title": "Fossil Bannon Automatic",
+        "description": "Transparent Mechanism, Brown Leather Strap, premium quality.",
+        "image": "images/Fossil Bannon Automatic.jpg",
+        "price": "2,699"
+    },
+    {
+        "id": "CW-009",
+        "title": "DiOr Ladies Watch",
+        "description": "Elegant DiOr Signature Dial, futuristic design, luxury .",
+        "image": "images/DiOr Ladies Watch.jpg",
+        "price": "2,099"
+    },
+    {
+        "id": "CW-010",
+        "title": "Michael Kros Watch For Ladies",
+        "description": "Bold design, Michael Kros, Golden Chained Bracelet.",
+        "image": "images/Classy Michael Kros Watch For Women.webp",
+        "price": "1,899"
+    },
+    {
+        "id": "CW-011",
+        "title": "Guess Silver For Ladies",
+        "description": "Classic design, Traingular Dial, Silver Classic Bracelet.",
+        "image": "images/Guess 2 (Silver watch).webp",
+        "price": "1,999"
+    },
+    {
+        "id": "CW-012",
+        "title": "Guess Copper Body For Ladies",
+        "description": "Unique style, Classic Dial, Gold Bracelet.",
+        "image": "images/Guess (Copper Body) Watch.jpeg",
+        "price": "1,999"
+    },
+    {
+        "id": "CW-013",
+        "title": "Rolex Stainless Steel For Ladies",
+        "description": "Diamond Border, black dial, robust build.",
+        "image": "images/Rolex Silver Stainless Steel Ladies.webp",
+        "price": "2,299"
+    },
+    {
+        "id": "CW-014",
+        "title": "Mirror Rolex Golden For Ladies",
+        "description": "Classic, Round dial, Diamond Border.",
+        "image": "images/WhatsApp Image 2025-06-12 at 1.17.28 PM.jpeg",
+        "price": "2,649"
+    },
+    {
+        "id": "CW-015",
+        "title": "Gucci G-Timeless Ladies Watch For Ladies",
+        "description": "Classy Desgin, Gucci Signature, affordable quality.",
+        "image": "images/Gucci G-Timeless Ladies Watch.jpg",
+        "price": "2,799"
+    }
+]
