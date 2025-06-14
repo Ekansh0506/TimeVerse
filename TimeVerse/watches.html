@@ -1,10 +1,3 @@
-<!-- 
-<section class="fade-in">
-    <h2>All Watches</h2>
-    <div id="watches-grid" class="product-grid"></div>
-    <div id="pagination"></div>
-</section>
-<script src="watches.js"></script> -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,16 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Watches - TimeVerse</title>
-    <!-- Watches-specific CSS for consistent dark theme look -->
     <link rel="stylesheet" href="watches.css">
 </head>
 
 <body>
     <header id="navbar">
-        <div class="logo">
+        <a href="index.html" class="logo" id="home-logo">
             <img src="images/ChatGPT Image Jun 12, 2025, 11_47_57 AM.png" alt="TimeVerse Logo" class="header-logo">
             TimeVerse
-        </div>
+        </a>
         <nav>
             <a href="index.html#hero">Home</a>
             <a href="index.html#catalog">Catalog</a>
@@ -35,6 +27,7 @@
 
     <section class="fade-in">
         <h2>All Watches</h2>
+        <!-- NO SEARCH BAR HERE -->
         <div id="watches-grid" class="product-grid"></div>
         <div id="pagination"></div>
     </section>
@@ -44,12 +37,10 @@
     </footer>
 
     <script>
-        // Menu toggle for mobile
         function toggleMenu() {
             const nav = document.querySelector("header nav");
             nav.classList.toggle("active");
         }
-        // Fade-in on scroll
         function fadeInOnScroll() {
             document.querySelectorAll('.fade-in').forEach(el => {
                 const pos = el.getBoundingClientRect();
@@ -60,6 +51,16 @@
         }
         window.addEventListener('scroll', fadeInOnScroll);
         window.addEventListener('DOMContentLoaded', fadeInOnScroll);
+
+        // Logo click goes home
+        document.addEventListener('DOMContentLoaded', function () {
+            const logoLink = document.getElementById('home-logo');
+            if (logoLink) {
+                logoLink.onclick = function (e) {
+                    window.location.href = "index.html";
+                };
+            }
+        });
     </script>
     <script src="watches.js"></script>
 </body>
