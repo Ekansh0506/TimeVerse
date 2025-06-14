@@ -32,28 +32,32 @@
         "title": "Fossil Gen 6",
         "description": "Digital, Rose Gold, Premium with crystal border.",
         "image": "images/fossil gen 6.avif",
-        "price": "2,599"
+        "price": "2,599",
+        "featured": true
     },
     {
         "id": "CW-006",
         "title": "Rado Diastar Tungsten(Day&Date)",
         "description": "Stainless Steel, Elegant Design, Premium .  ",
         "image": "images/Rado.webp",
-        "price": "2,349"
+        "price": "2,349",
+        "featured": true
     },
     {
         "id": "CW-007",
         "title": "Fossil ME-3080",
         "description": "Metal Body, Luminous Dial, Automatic Movement.",
         "image": "images/fossil-men-39-s-me3080-modern-machine.jpg",
-        "price": "2,999"
+        "price": "2,999",
+        "featured": true
     },
     {
         "id": "CW-008",
         "title": "Fossil Bannon Automatic",
         "description": "Transparent Mechanism, Brown Leather Strap, premium quality.",
         "image": "images/Fossil Bannon Automatic.jpg",
-        "price": "2,699"
+        "price": "2,699",
+        "featured": true
     },
     {
         "id": "CW-009",
@@ -95,13 +99,15 @@
         "title": "Mirror Rolex Golden For Ladies",
         "description": "Classic, Round dial, Diamond Border.",
         "image": "images/WhatsApp Image 2025-06-12 at 1.17.28 PM.jpeg",
-        "price": "2,649"
+        "price": "2,649",
+        "featured": true
     },
     {
         "id": "CW-015",
         "title": "Gucci G-Timeless Ladies Watch For Ladies",
         "description": "Classy Desgin, Gucci Signature, affordable quality.",
         "image": "images/Gucci G-Timeless Ladies Watch.jpg",
-        "price": "2,799"
+        "price": "2,799",
+        "featured": true
     }
 ]
