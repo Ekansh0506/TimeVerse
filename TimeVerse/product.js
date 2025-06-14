@@ -107,3 +107,8 @@ fetch('products.json')
   .catch(() => {
     featuredGrid.innerHTML = "<p style='color:red'>Failed to load featured watches.</p>";
   });
+
+
+
+
+  
