@@ -33,7 +33,6 @@
         "description": "Digital, Rose Gold, Premium with crystal border.",
         "image": "images/fossil gen 6.avif",
         "price": "2,599",
-        "featured": true
     },
     {
         "id": "CW-006",
@@ -41,7 +40,6 @@
         "description": "Stainless Steel, Elegant Design, Premium .  ",
         "image": "images/Rado.webp",
         "price": "2,349",
-        "featured": true
     },
     {
         "id": "CW-007",
@@ -49,7 +47,6 @@
         "description": "Metal Body, Luminous Dial, Automatic Movement.",
         "image": "images/fossil-men-39-s-me3080-modern-machine.jpg",
         "price": "2,999",
-        "featured": true
     },
     {
         "id": "CW-008",
@@ -57,7 +54,6 @@
         "description": "Transparent Mechanism, Brown Leather Strap, premium quality.",
         "image": "images/Fossil Bannon Automatic.jpg",
         "price": "2,699",
-        "featured": true
     },
     {
         "id": "CW-009",
@@ -100,7 +96,6 @@
         "description": "Classic, Round dial, Diamond Border.",
         "image": "images/WhatsApp Image 2025-06-12 at 1.17.28 PM.jpeg",
         "price": "2,649",
-        "featured": true
     },
     {
         "id": "CW-015",
@@ -108,48 +103,53 @@
         "description": "Classy Desgin, Gucci Signature, affordable quality.",
         "image": "images/Gucci G-Timeless Ladies Watch.jpg",
         "price": "2,799",
-        "featured": true
     },
     {
         "id": "CW-016",
         "title": "Vacheron Constantin 4178 Vintage Chronograph",
         "description": "Rare mid-century design with teardrop lugs, manual chronograph movement, and telemeter dial.",
         "image": "images/Vacheron Constantin 4178 Vintage Chronograph.jpg",
-        "price": "2,299"
+        "price": "2,299",
+        "featured": true
     },
     {
         "id": "CW-017",
         "title": "Rolex Deepsea Challenge Sea-Dweller",
         "description": "Professional diver watch with 11000m water resistance, titanium build, and Ringlock system.",
         "image": "images/Rolex Deepsea Challenge Sea-Dweller.jpg",
-        "price": "2,599"
+        "price": "2,599",
+        "featured": true
     },
     {
         "id": "CW-018",
         "title": "Patek Philippe Grandmaster Chime 6300GR-001",
         "description": "Two-tone rose & white-gold, 20 complications including grande sonnerie, minute repeater, alarm & perpetual calendar on reversible case.",
         "image": "images/Patek Philippe Grandmaster Chime 6300GR-001.webp",
-        "price": "3,099"
+        "price": "3,099",
+        "featured": true
     },
     {
         "id": "CW-019",
         "title": "A. Lange & Söhne Grand Lange 1 (41 mm)",
         "description": "Elegant 41 mm white-gold dress watch with outsize date, power-reserve indicator, manual movement, and slim 8.2mm case.",
         "image": "images/A. Lange & Söhne Grand Lange 1.jpg",
-        "price": "2,799"
+        "price": "2,799",
+        "featured": true
     },
     {
         "id": "CW-020",
         "title": "Rolex Oyster Perpetual Cosmograph Daytona",
         "description": "Luxurious Everose gold chronograph with black Cerachrom bezel, sunburst chocolate dial, and high-performance automatic calibre 4130 movement.",
         "image": "images/rolex-oyster-perpetual-cosmograph-daytona-2.jpg",
-        "price": "₹32,50,000"
+        "price": "₹2,499",
+        "featured": true
     },
     {
         "id": "CW-021",
         "title": "Audemars Piguet Royal Oak Tourbillon",
         "description": "41mm rose-gold case with tourbillon movement and intricate blue tapisserie dial.",
         "image": "images/Audemars Piguet Royal Oak Tourbillon.jpg",
-        "price": "2,999"
+        "price": "2,999",
+        "featured": true
     }
 ]
